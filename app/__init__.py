@@ -14,5 +14,4 @@ login_manager.login_view = 'login'
 
 admin = Admin(app, template_mode='bootstrap3')
 
-from app import views, forms, models
-
+from app import models, views, forms
